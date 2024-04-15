@@ -1,0 +1,30 @@
+@import url(https://fonts.google.com/specimen/Hanken+Grotesk);
+*{
+    font-size: 18px;
+}
+.result{
+    background:  linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    color: white;
+}
+
+.score{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    font-weight: bolder;
+}
+
+button.custom-btn{
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+}
+
+.result{
+    width: 20rem;
+}
+
+.container{
+    width: min-content;
+    box-shadow: 5px 0 0 0 grey;
+}
